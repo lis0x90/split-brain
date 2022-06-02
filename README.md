@@ -11,7 +11,7 @@ This setup include:
 * two software briges, that can be compared to network hub/switch in real world: `vbr-left` and `vbr-right`
 * lines on figure represents virtual links, that represents wires in real world. 
 
-For example, to simulate broken connection between two datacenters, just shut down one end of link between two briges:
+For example, to simulate broken connection between two datacenters, just shut down one end of link between two bridges:
 ```bash 
 ip link set vbr-left2right down
 ```
